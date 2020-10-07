@@ -17,11 +17,11 @@ describe('7-is-empty', () => {
     expect(isEmpty(['hello', 'world'])).toEqual(false)
   })
 
-  it('should return true for an empty object', () => {
-    expect(isEmpty({})).toEqual(true)
-  })
+  // it('should return true for an empty object', () => {
+  //   expect(isEmpty({})).toEqual(true)
+  // })
 
-  it('should return false for an object with properties', () => {
-    expect(isEmpty({ name: 'Jane' })).toEqual(false)
-  })
+  // it('should return false for an object with properties', () => {
+  //   expect(isEmpty({ name: 'Jane' })).toEqual(false)
+  // })
 })
